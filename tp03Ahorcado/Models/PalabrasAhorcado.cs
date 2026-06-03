@@ -9,7 +9,7 @@ public class PalabrasAhorcado
         palabras.Add("ABANICOS", "ELEFANTE", "FELICIDAD", "INFORMATICA", "CARRUAJE", "TERREMOTO", "LABERINTO", "MARIPOSA", "AVENTURA", "ARQUITECTO")
     }
 
-
+    
 
 
 
