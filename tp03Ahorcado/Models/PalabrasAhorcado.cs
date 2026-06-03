@@ -9,6 +9,12 @@ public class PalabrasAhorcado
         palabras.Add("ABANICOS", "ELEFANTE", "FELICIDAD", "INFORMATICA", "CARRUAJE", "TERREMOTO", "LABERINTO", "MARIPOSA", "AVENTURA", "ARQUITECTO")
     }
 
+    public string ObtenerPalabra()
+    {
+        int random = Random.Shared.Next(palabras.Count);
+        return palabras[random];
+    }
+
 
 
 
