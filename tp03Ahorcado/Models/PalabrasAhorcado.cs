@@ -2,16 +2,23 @@ namespace tp03Ahorcado.Models;
 
 public class PalabrasAhorcado
 {
-    private List<string> palabras;
+     public List<string> palabras = new List<string>();
 
-    public PalabrasAhorcado
+    public PalabrasAhorcado()
     {
-        palabras.Add("ABANICOS", "ELEFANTE", "FELICIDAD", "INFORMATICA", "CARRUAJE", "TERREMOTO", "LABERINTO", "MARIPOSA", "AVENTURA", "ARQUITECTO")
+        
+        palabras.Add("ABANICOS");
+        palabras.Add("ELEFANTE");
+        palabras.Add("FELICIDAD");
+        palabras.Add("INFORMATICA");
+        palabras.Add("CARRUAJE");
+        palabras.Add("TERREMOTO");
+        palabras.Add("LABERINTO");
+        palabras.Add("MARIPOSA");
+        palabras.Add("AVENTURA");
+        palabras.Add("ARQUITECTO");
     }
 
-<<<<<<< HEAD
-    
-=======
     public string ObtenerPalabra()
     {
         int random = Random.Shared.Next(palabras.Count);
@@ -19,7 +26,6 @@ public class PalabrasAhorcado
     }
 
 
->>>>>>> adab9f82b9c8dd959f2c806fc691396732a7254f
 
 
 
