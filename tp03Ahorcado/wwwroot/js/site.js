@@ -1,13 +1,13 @@
 ﻿const palabra = document.getElementById("palabraOculta").value;
 
 let palabraOculta = [];
-let intentos = 10;
+let intentos = 9;
 
 for (let i = 0; i < palabra.length; i++) {
     palabraOculta.push("_");
 }
 
-document.getElementById("texto").innerHTML = palabraOculta.join(" ");
+document.getElementById("texto").innerHTML = "Palabra: " + palabraOculta.join(" ") + ".";
 
 function arriesgarLetra()
 {
@@ -20,7 +20,7 @@ if(intentos > 0)
         if (palabra[i] == letra)
             {
                 palabraOculta[i] = letra;
-                document.getElementById("respuesta").innerHTML = "Bien!  Te quedan " + (intentos + 1) + " intentos.";
+                document.getElementById("respuesta").innerHTML = "Bien!  Te quedan " + (intentos + 1 ) + " intentos.";
                 correcto = true;
             }
 
@@ -35,7 +35,7 @@ if(intentos > 0)
 
     document.getElementById("miForm").reset();
 
-    document.getElementById("texto").innerHTML = palabraOculta.join(" ");
+document.getElementById("texto").innerHTML = "Palabra: " + palabraOculta.join(" ") + ".";
 }
 else
     {
