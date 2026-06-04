@@ -1,7 +1,7 @@
 ﻿const palabra = document.getElementById("palabraOculta").value;
 
 let palabraOculta = [];
-let intentos = 0;
+let intentos = 10;
 
 for (let i = 0; i < palabra.length; i++) {
     palabraOculta.push("_");
@@ -13,14 +13,14 @@ function arriesgarLetra()
 {
     const letra = document.getElementById("ingLetra").value.toUpperCase();
     let correcto = false;
-if(intentos <= 10)
+if(intentos > 0)
     {
     for(let i = 0; i<palabra.length; i++)
     {
         if (palabra[i] == letra)
             {
                 palabraOculta[i] = letra;
-                document.getElementById("respuesta").innerHTML = "Bien!";
+                document.getElementById("respuesta").innerHTML = "Bien!  Te quedan " + (intentos + 1) + " intentos.";
                 correcto = true;
             }
 
@@ -28,8 +28,9 @@ if(intentos <= 10)
     
     }
     if(correcto == false){
-      document.getElementById("respuesta").innerHTML = "Mal.";
-        intentos++;
+         intentos--;
+      document.getElementById("respuesta").innerHTML = "Mal. Te quedan " + (intentos + 1) + " intentos.";
+       
     }
 
     document.getElementById("miForm").reset();
@@ -38,12 +39,12 @@ if(intentos <= 10)
 }
 else
     {
-        document.getElementById("respuesta").innerHTML = "No hay más intentos. FIN DEL JUEGO!";
+        document.getElementById("respuesta").innerHTML = "Derrota!";
     }
 
 if(palabraOculta.includes("_") == false)
         {
-            document.getElementById("respuesta").innerHTML = "Lo lograste! Bien ahí amigo! FIN DEL JUEGO!";
+            document.getElementById("respuesta").innerHTML = "Victoria!";
         }
 
 }

@@ -191,4 +191,4 @@ C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Ta
 C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\tp03Ahorcado.pdb
 C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\tp03Ahorcado.genruntimeconfig.cache
 C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\ref\tp03Ahorcado.dll
-C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\2vhh3c2hol-epr13t8yue.gz
+C:\Users\49757661\Downloads\Nueva carpeta\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\2vhh3c2hol-uqoey4swtj.gz
