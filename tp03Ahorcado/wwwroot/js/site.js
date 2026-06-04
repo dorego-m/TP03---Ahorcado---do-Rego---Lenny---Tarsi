@@ -20,16 +20,16 @@ if(intentos <= 10)
         if (palabra[i] == letra)
             {
                 palabraOculta[i] = letra;
-                document.getElementById("respuesta").innerHTML = "correcto";
-                correcto = true
+                document.getElementById("respuesta").innerHTML = "Bien!";
+                correcto = true;
             }
 
 
     
     }
     if(correcto == false){
-      document.getElementById("respuesta").innerHTML = "Falso";
-        intentos = intentos + 1;
+      document.getElementById("respuesta").innerHTML = "Mal.";
+        intentos++;
     }
 
     document.getElementById("miForm").reset();
@@ -38,12 +38,12 @@ if(intentos <= 10)
 }
 else
     {
-        document.getElementById("respuesta").innerHTML = "Te quedaste sin vidas amiguito";
+        document.getElementById("respuesta").innerHTML = "No hay más intentos. FIN DEL JUEGO!";
     }
 
 if(palabraOculta.includes("_") == false)
         {
-            document.getElementById("respuesta").innerHTML = "Lo lograste! bien ahi amigo";
+            document.getElementById("respuesta").innerHTML = "Lo lograste! Bien ahí amigo! FIN DEL JUEGO!";
         }
 
 }
