@@ -1,9 +1,9 @@
-﻿const palabraGuion = getElementById("palabraOculta").value;
- let palabraOculta = [];
+﻿const palabra = document.getElementById("palabraOculta").value;
 
- for (let i = 0; i < palabra.length; i++) {
-        palabraOculta.push("_");
-    }
+let palabraOculta = [];
 
+for (let i = 0; i < palabra.length; i++) {
+    palabraOculta.push("_");
+}
 
-    document.getElementById("palabra").innerHTML = palabraOculta;
+document.getElementById("texto").innerHTML = palabraOculta.join("");

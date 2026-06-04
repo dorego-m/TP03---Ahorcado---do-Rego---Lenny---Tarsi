@@ -24,7 +24,6 @@ C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Aho
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\scopedcss\projectbundle\tp03Ahorcado.bundle.scp.css
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\1asev9pjgw-b9sayid5wm.gz
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\boz30i2xis-61n19gt1b8.gz
-C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\2vhh3c2hol-1zs0fau8v8.gz
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\6ddy329faw-t1cqhe9u97.gz
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\vfeygw0pib-c2jlpeoesf.gz
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\fjvmrs63uc-sejl45xvog.gz
@@ -95,3 +94,4 @@ C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Aho
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\tp03Ahorcado.pdb
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\tp03Ahorcado.genruntimeconfig.cache
 C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\ref\tp03Ahorcado.dll
+C:\Users\49757661\Downloads\tp\TP03---Ahorcado---do-Rego---Lenny---Tarsi\tp03Ahorcado\obj\Debug\net9.0\compressed\2vhh3c2hol-cat1g2y4sj.gz
