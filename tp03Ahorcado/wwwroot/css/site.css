@@ -20,3 +20,12 @@ margin-right: -10%;
 border-bottom: 1px solid black;
 background-color: lightgray;
 }
+
+#texto 
+{
+  color: rgb(7, 0, 75);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10%;
+}
+
